@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Questions from "../../../functions/quiz";
 
-function Button_1() {
+function Button_5() {
   const [selected, setIsSelected] = useState(false);
   
   const handleOptionClick = () => {
@@ -19,4 +19,4 @@ function Button_1() {
   );
 }
 
-export default Button_1;
+export default Button_5;
