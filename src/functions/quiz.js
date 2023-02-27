@@ -24,16 +24,6 @@ export const questions = [
     option: ["Blue", "Red", "Yellow", "Green"],
     answer: "Red"
   }
-];
+]
 
-export const countCorrectAnswers = (questions, answers) => {
-  let correctAnswers = 0;
-  for (let i = 0; i < questions.length; i++) {
-    if (questions[i].answer === answers[i]) {
-      correctAnswers++;
-    }
-  }
-  return correctAnswers;
-}
-
-export default { questions, countCorrectAnswers };
+export default questions;
