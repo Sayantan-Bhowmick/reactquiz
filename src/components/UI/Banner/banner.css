@@ -47,8 +47,8 @@
   color: white;
   font-weight: bold;
   font-size: x-large;
-  padding: 70px;
-  width: 20%;
+  padding: 10px;
+  width: 30%;
   margin-top: 225px;
   margin-left: 0;
   margin-right: auto;
@@ -62,11 +62,11 @@
   color: white;
   font-weight: bold;
   font-size: x-large;
-  padding: 70px;
-  width: 20%;
+  padding: 10px;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -246px;
+  margin-top: -145px;
   background-color: rgb(159, 95, 128);
   border-radius: 5px;
 }
@@ -76,11 +76,11 @@
   color: white;
   font-weight: bold;
   font-size: x-large;
-  padding: 70px;
-  width: 20%;
+  padding: 10px;
+  width: 30%;
   margin-left: auto;
   margin-right: 0;
-  margin-top: -246px;
+  margin-top: -146px;
   background-color: rgb(159, 95, 128);
   border-radius: 5px;
 }
