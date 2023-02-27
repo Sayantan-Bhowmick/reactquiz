@@ -4,7 +4,7 @@ import Banner from './components/UI/Banner/banner';
 function App() {
   return (
     <div className="App">
-      <Banner></Banner>
+      <Banner/>
     </div>
   );
 }

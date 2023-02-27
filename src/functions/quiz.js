@@ -1,4 +1,4 @@
-const Questions = [
+export const questions = [
   {
     question: "Who is the father of our nation ?",
     option: ["Mahatma Gandhi", "Jawaharlal Nehru", "Donald Trump", "Barrack Obama"],
@@ -24,6 +24,16 @@ const Questions = [
     option: ["Blue", "Red", "Yellow", "Green"],
     answer: "Red"
   }
-]
+];
 
-export default Questions;
+export const countCorrectAnswers = (questions, answers) => {
+  let correctAnswers = 0;
+  for (let i = 0; i < questions.length; i++) {
+    if (questions[i].answer === answers[i]) {
+      correctAnswers++;
+    }
+  }
+  return correctAnswers;
+}
+
+export default { questions, countCorrectAnswers };

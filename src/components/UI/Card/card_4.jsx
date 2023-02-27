@@ -1,10 +1,10 @@
 import React from "react";
-import Questions from '../../../functions/quiz'
+import questions from '../../../functions/quiz'
 import Button_4 from "../Button/button_4";
 function Card_4() {
   return(
     <div>
-      <p>{Questions[3].question}</p>
+      <p>{questions[3].question}</p>
       <Button_4></Button_4>
     </div>
   );

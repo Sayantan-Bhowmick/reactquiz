@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Questions from "../../../functions/quiz";
+import questions from "../../../functions/quiz";
 import './button.css';
 
 function Button_4() {
@@ -12,10 +12,10 @@ function Button_4() {
   }
   return(
     <div className="buttonContainer">
-      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{Questions[3].option[0]}</button>
-      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{Questions[3].option[1]}</button>
-      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{Questions[3].option[2]}</button>
-      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{Questions[3].option[3]}</button>
+      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{questions[3].option[0]}</button>
+      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{questions[3].option[1]}</button>
+      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{questions[3].option[2]}</button>
+      <button onClick={handleOptionClick} disabled={selected === true} className="buttonOption">{questions[3].option[3]}</button>
     </div>
   );
 }
